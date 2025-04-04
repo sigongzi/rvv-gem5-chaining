@@ -147,9 +147,9 @@ system.cpu = MinorCPU()
 system.cpu.icache = Cache(
     size = options.l1i_size,
     assoc = 4,
-    tag_latency = 4,
-    data_latency = 4,
-    response_latency = 4,
+    tag_latency = 0,
+    data_latency = 0,
+    response_latency = 0,
     mshrs = 4,
     tgts_per_mshr = 20
 )
@@ -157,35 +157,35 @@ system.cpu.icache = Cache(
 system.cpu.dcache = Cache(
     size = options.l1d_size,
     assoc = 4,
-    tag_latency = 4,
-    data_latency = 4,
-    response_latency = 4,
+    tag_latency = 0,
+    data_latency = 0,
+    response_latency = 0,
     mshrs = 4,
     tgts_per_mshr = 20
 )
 
-# Setup vector cache
-if (not connect_to_l1d) and (not connect_to_l2) and (not connect_to_dram):
-    system.VectorCache = Cache(
-        size = options.l1d_size,
-        assoc = 4,
-        tag_latency = 4,
-        data_latency = 4,
-        response_latency = 4,
-        mshrs = 4,
-        tgts_per_mshr = 20
-    )
+# # Setup vector cache
+# if (not connect_to_l1d) and (not connect_to_l2) and (not connect_to_dram):
+#     system.VectorCache = Cache(
+#         size = options.l1d_size,
+#         assoc = 4,
+#         tag_latency = 4,
+#         data_latency = 4,
+#         response_latency = 4,
+#         mshrs = 4,
+#         tgts_per_mshr = 20
+#     )
 
-if connect_to_l2 or connect_to_dram:
-    system.VectorCache = Cache(
-        size = "2kB",
-        assoc = 1,
-        tag_latency = 0,
-        data_latency = 0,
-        response_latency = 0,
-        mshrs = 4,
-        tgts_per_mshr = 20
-    )
+# if connect_to_l2 or connect_to_dram:
+#     system.VectorCache = Cache(
+#         size = "2kB",
+#         assoc = 1,
+#         tag_latency = 0,
+#         data_latency = 0,
+#         response_latency = 0,
+#         mshrs = 4,
+#         tgts_per_mshr = 20
+#     )
 
 ###############################################################################
 # Vector extension config
@@ -358,9 +358,9 @@ else:
 system.l2cache = Cache(
     size = options.l2_size,
     assoc = 8,
-    tag_latency = 12,
-    data_latency = 12,
-    response_latency = 12,
+    tag_latency = 0,
+    data_latency = 0,
+    response_latency = 0,
     mshrs = 20,
     tgts_per_mshr = 12
 )
@@ -375,7 +375,10 @@ system.cpu.createInterruptController()
 system.system_port = system.membus.slave
 
 # Create a DDR3 memory controller
-system.mem_ctrl = DDR3_1600_8x8(device_size = options.mem_size)
+system.mem_ctrl = SimpleMemory(
+    latency='0ns',  # lower the default latency
+    bandwidth='12GB/s'
+)
 system.mem_ctrl.range = system.mem_ranges[0]
 system.mem_ctrl.port = system.membus.master
 

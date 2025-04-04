@@ -20,6 +20,7 @@ m5out
 /util/m5/*.o
 /util/m5/*.a
 /util/m5/m5
+/util/m5-bak
 /util/packet_pb2.py
 /util/tap/*.d
 /util/tap/*.o
@@ -36,3 +37,9 @@ m5out
 /system/arm/bootloader/arm64/boot_v2.arm64
 configs/example/memcheck.cfg
 configs/dram/lowp_sweep.cfg
+Xuantie-900-gcc-linux-6.6.0-glibc-x86_64-V3.0.1/
+Xuantie-900-llvm-elf-newlib-x86_64-V2.0.1/
+include-bak/
+riscv-vectorized-benchmark-suite/
+rvv_test/
+test_for_matmul/

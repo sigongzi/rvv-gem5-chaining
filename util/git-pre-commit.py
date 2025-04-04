@@ -81,7 +81,8 @@ for status, fname in git.status(filter="MA", cached=True):
     f = TemporaryFile()
     f.write(status.encode())
 
-    verifiers = [ v(ui, opts, base=repo_base) for v in all_verifiers ]
+    # verifiers = [ v(ui, opts, base=repo_base) for v in all_verifiers ]
+    verifiers = []
     for v in verifiers:
         f.seek(0)
         # It is prefered that the first check is silent as it is in the

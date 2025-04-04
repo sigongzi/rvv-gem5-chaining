@@ -27,9 +27,24 @@
 FROM ubuntu:20.04
 
 ENV DEBIAN_FRONTEND=noninteractive
+
+# 备份原有的源列表
+RUN cp /etc/apt/sources.list /etc/apt/sources.list.bak
+
+# 清空并重新创建 sources.list 文件，首先添加阿里云的源
+RUN echo "deb http://mirrors.aliyun.com/ubuntu/ focal main restricted" > /etc/apt/sources.list && \
+    echo "deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted" >> /etc/apt/sources.list && \
+    # 添加清华大学的源，针对 universe 和 multiverse 部分
+    echo "deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal universe multiverse" >> /etc/apt/sources.list && \
+    echo "deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates universe multiverse" >> /etc/apt/sources.list && \
+    echo "deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse" >> /etc/apt/sources.list && \
+    # 安全更新可以从任一源获取，这里选择阿里云
+    echo "deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse" >> /etc/apt/sources.list
+
 RUN apt -y update
 RUN apt -y upgrade
 RUN apt -y install build-essential git m4 scons zlib1g zlib1g-dev \
     libprotobuf-dev protobuf-compiler libprotoc-dev libgoogle-perftools-dev \
     python3-dev python3-six python-is-python3 doxygen libboost-all-dev \
     libhdf5-serial-dev python3-pydot libpng-dev
+RUN apt -y install libtinfo5

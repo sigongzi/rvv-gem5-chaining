@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "vector_defines.h": "c",
+        "typeindex": "cpp",
+        "typeinfo": "cpp",
+        "chrono": "cpp",
+        "text_encoding": "cpp",
+        "stdio.h": "c",
+        "math.h": "c",
+        "riscv_vector.h": "c",
+        "riscv_vector_v0p10.h": "c"
+    },
+    "cmake.sourceDirectory": "/workspaces/plct-gem5/ext/pybind11/tests/test_cmake_build/installed_function"
+}
