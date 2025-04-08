@@ -43,5 +43,6 @@ include-bak/
 riscv-vectorized-benchmark-suite/
 !riscv-vectorized-benchmark-suite/_chaintest/
 !riscv-vectorized-benchmark-suite/_chaintest/**
+riscv-vectorized-benchmark-suite/_chaintest/m5out
 rvv_test/
 test_for_matmul/
