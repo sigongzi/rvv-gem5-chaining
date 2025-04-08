@@ -41,5 +41,6 @@ Xuantie-900-gcc-linux-6.6.0-glibc-x86_64-V3.0.1/
 Xuantie-900-llvm-elf-newlib-x86_64-V2.0.1/
 include-bak/
 riscv-vectorized-benchmark-suite/
+!riscv-vectorized-benchmark-suite/_chaintest/*
 rvv_test/
 test_for_matmul/

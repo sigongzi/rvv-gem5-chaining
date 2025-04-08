@@ -387,7 +387,7 @@ VectorLane::issue(VectorEngine& vector_wrapper,
             }
             delete[] Ddata;
         }
-        else if (!insn.arith1Src())
+        else if (!insn.arith1Src()) // If it is not one source arithmatic operation 
         {
             DPRINTF(VectorLane,"Reading srcAReader \n" );
             srcAReader->initialize(vector_wrapper, src1_count, DATA_SIZE,

@@ -147,9 +147,9 @@ system.cpu = MinorCPU()
 system.cpu.icache = Cache(
     size = options.l1i_size,
     assoc = 4,
-    tag_latency = 0,
-    data_latency = 0,
-    response_latency = 0,
+    tag_latency = 1,
+    data_latency = 1,
+    response_latency = 1,
     mshrs = 4,
     tgts_per_mshr = 20
 )
@@ -157,9 +157,9 @@ system.cpu.icache = Cache(
 system.cpu.dcache = Cache(
     size = options.l1d_size,
     assoc = 4,
-    tag_latency = 0,
-    data_latency = 0,
-    response_latency = 0,
+    tag_latency = 1,
+    data_latency = 1,
+    response_latency = 1,
     mshrs = 4,
     tgts_per_mshr = 20
 )
@@ -295,10 +295,10 @@ system.cpu.ve_interface = VectorEngineInterface(
 
 if connect_to_l1d:
     system.l1bus = CoherentXBar(
-        forward_latency = 0,
-        frontend_latency = 0,
-        response_latency = 0,
-        snoop_response_latency = 0,
+        forward_latency = 1,
+        frontend_latency = 1,
+        response_latency = 1,
+        snoop_response_latency = 1,
         width = options.cache_line_size
     )
 
@@ -358,9 +358,9 @@ else:
 system.l2cache = Cache(
     size = options.l2_size,
     assoc = 8,
-    tag_latency = 0,
-    data_latency = 0,
-    response_latency = 0,
+    tag_latency = 1,
+    data_latency = 1,
+    response_latency = 1,
     mshrs = 20,
     tgts_per_mshr = 12
 )

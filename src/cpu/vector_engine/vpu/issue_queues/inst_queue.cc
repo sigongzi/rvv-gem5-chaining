@@ -237,7 +237,7 @@ InstQueue::evaluate()
         }
         else
         {
-            //DPRINTF(InstQueue,"Sources not ready\n");
+            DPRINTF(InstQueue,"Sources not ready, the instruction is %s\n", Instruction->insn.getName());
         }
     }
     // Stores are executed in order
@@ -352,7 +352,7 @@ InstQueue::evaluate()
         }
         else
         {
-            //DPRINTF(InstQueue,"Sources not ready\n");
+            DPRINTF(InstQueue,"Sources not ready for inst %s\n", Mem_Instruction->insn.getName());
         }
     }
 }

@@ -76,6 +76,8 @@
 #define M5OP_WORK_BEGIN         0x5a
 #define M5OP_WORK_END           0x5b
 
+#define M5OP_SE_SYSCALL         0x60
+#define M5OP_SE_PAGE_FAULT      0x61
 #define M5OP_DIST_TOGGLE_SYNC   0x62
 
 #define M5OP_WORKLOAD           0x70
