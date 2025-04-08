@@ -1,0 +1,719 @@
+Global frequency set at 1000000000000 ticks per second
+a1[0] = 5100.000000, a2[0] = 5200.000000, a3[0] = 2300.000000
+a1[1] = 3500.000000, a2[1] = 400.000000, a3[1] = 8200.000000
+a1[2] = 9500.000000, a2[2] = 5100.000000, a3[2] = 9100.000000
+a1[3] = 4100.000000, a2[3] = 8000.000000, a3[3] = 9900.000000
+a1[4] = 5400.000000, a2[4] = 4500.000000, a3[4] = 0.000000
+a1[5] = 8300.000000, a2[5] = 1000.000000, a3[5] = 5500.000000
+a1[6] = 5100.000000, a2[6] = 4200.000000, a3[6] = 4200.000000
+a1[7] = 4900.000000, a2[7] = 8700.000000, a3[7] = 2300.000000
+a1[8] = 5000.000000, a2[8] = 800.000000, a3[8] = 9700.000000
+a1[9] = 1100.000000, a2[9] = 6200.000000, a3[9] = 600.000000
+a1[10] = 2300.000000, a2[10] = 2900.000000, a3[10] = 4000.000000
+a1[11] = 7600.000000, a2[11] = 5400.000000, a3[11] = 7200.000000
+a1[12] = 9900.000000, a2[12] = 3400.000000, a3[12] = 9800.000000
+a1[13] = 4700.000000, a2[13] = 7900.000000, a3[13] = 9900.000000
+a1[14] = 5900.000000, a2[14] = 9700.000000, a3[14] = 3900.000000
+a1[15] = 2900.000000, a2[15] = 5100.000000, a3[15] = 1800.000000
+2030591000: system.cpu.ve_interface.vector_engine: Setting vl 16, sew 64, lmul 1, pc 0x1048a
+2030592000: system.cpu.ve_interface.vector_engine.vector_inst_queue: issuing inst: vle64_v v1       PC 0x1048E
+2030592000: system.cpu.ve_interface.vector_engine.vector_inst_queue: issuing renamed inst: vle64_v v32   old_dst v1      PC 0x1048E
+2030592000: system.cpu.ve_interface.vector_engine: Sending instruction vle64_v to VMU, pc 0x1048e
+2030592000: system.cpu.ve_interface.vector_engine.vector_memory_unit: DST_SIZE=8 
+2030592000: system.cpu.ve_interface.vector_engine.vector_memory_unit: Vector Load unit_stride  to Register v32, vl:16
+2030592000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: count: 16, DST_SIZE: 8, data_to: reg, mem_addr: 0x1000 mop: 0, stride: 1
+2030592000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1000
+2030592000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write dataQ empty
+2030592000: system.cpu.ve_interface.vector_engine.vector_memory_unit: Vector Load unit_stride  from Base Memory Addrs: 0x7ffffffffffffe48
+2030592000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: count: 16, DST_SIZE: 8, data_from: mem, mem_addr: 0x7ffffffffffffe48 mop: 0, stride: 1
+2030592000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x7ffffffffffffe40 with 7 items for addr 0x7ffffffffffffe48
+2030592500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x7ffffffffffffe80 with 8 items for addr 0x7ffffffffffffe80
+2030592500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1000
+2030592500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write dataQ empty
+2030593000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1000
+2030593000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write dataQ empty
+2030593000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x7ffffffffffffec0 with 1 items for addr 0x7ffffffffffffec0
+2030593000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030593500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030593500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1000
+2030593500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write dataQ empty
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b3ec0000000000 
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40ab580000000000 
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40c28e0000000000 
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b0040000000000 
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b5180000000000 
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40c0360000000000 
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b3ec0000000000 
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1000
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1000
+2030594000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1000
+2030594000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030594500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030594500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1008
+2030594500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1008
+2030594500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1008
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b3240000000000 
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b3880000000000 
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x4091300000000000 
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40a1f80000000000 
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40bdb00000000000 
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40c3560000000000 
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b25c0000000000 
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b70c0000000000 
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1010
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1010
+2030595000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1010
+2030595000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030595500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030595500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1018
+2030595500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1018
+2030595500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1018
+2030596000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=1
+2030596000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40a6a80000000000 
+2030596000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030596000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030596000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030596000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030596000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1020
+2030596000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1020
+2030596000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1020
+2030596000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030596500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030596500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030596500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1028
+2030596500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1028
+2030596500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1028
+2030597000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030597000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1030
+2030597000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1030
+2030597000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1030
+2030597000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030597500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030597500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030597500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1038
+2030597500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1038
+2030597500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1038
+2030598000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030598000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1040
+2030598000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1040
+2030598000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1040
+2030598000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030598500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030598500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030598500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1048
+2030598500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1048
+2030598500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1048
+2030599000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030599000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1050
+2030599000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1050
+2030599000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1050
+2030599000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030599500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030599500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030599500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1058
+2030599500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1058
+2030599500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1058
+2030600000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030600000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1060
+2030600000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1060
+2030600000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1060
+2030600000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030600500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030600500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030600500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1068
+2030600500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1068
+2030600500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1068
+2030601000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030601000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1070
+2030601000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1070
+2030601000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1070
+2030601000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030601500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030601500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030601500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1078
+2030601500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1078
+2030601500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1078
+2030602000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=1
+2030602000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Executed instruction vle64_v
+2030602000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Memory queue Size 2
+2030602000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030602000: system.cpu.ve_interface.vector_engine.vector_inst_queue: issuing inst: vle64_v v2       PC 0x10492
+2030602000: system.cpu.ve_interface.vector_engine.vector_inst_queue: issuing renamed inst: vle64_v v33   old_dst v2      PC 0x10492
+2030602000: system.cpu.ve_interface.vector_engine: Sending instruction vle64_v to VMU, pc 0x10492
+2030602000: system.cpu.ve_interface.vector_engine.vector_memory_unit: DST_SIZE=8 
+2030602000: system.cpu.ve_interface.vector_engine.vector_memory_unit: Vector Load unit_stride  to Register v33, vl:16
+2030602000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: count: 16, DST_SIZE: 8, data_to: reg, mem_addr: 0x1080 mop: 0, stride: 1
+2030602000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1080
+2030602000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write dataQ empty
+2030602000: system.cpu.ve_interface.vector_engine.vector_memory_unit: Vector Load unit_stride  from Base Memory Addrs: 0x7ffffffffffffdc8
+2030602000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: count: 16, DST_SIZE: 8, data_from: mem, mem_addr: 0x7ffffffffffffdc8 mop: 0, stride: 1
+2030602000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x7ffffffffffffdc0 with 7 items for addr 0x7ffffffffffffdc8
+2030602500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030602500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x7ffffffffffffe00 with 8 items for addr 0x7ffffffffffffe00
+2030602500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1080
+2030602500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write dataQ empty
+2030603000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1080
+2030603000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write dataQ empty
+2030603000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x7ffffffffffffe40 with 1 items for addr 0x7ffffffffffffe40
+2030603000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030603500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030603500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1080
+2030603500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write dataQ empty
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b4500000000000 
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x4079000000000000 
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b3ec0000000000 
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40bf400000000000 
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b1940000000000 
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x408f400000000000 
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b0680000000000 
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1080
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1080
+2030604000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1080
+2030604000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030604500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030604500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1088
+2030604500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1088
+2030604500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1088
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40c0fe0000000000 
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x4089000000000000 
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b8380000000000 
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40a6a80000000000 
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b5180000000000 
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40aa900000000000 
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40bedc0000000000 
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40c2f20000000000 
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1090
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1090
+2030605000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1090
+2030605000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030605500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030605500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x1098
+2030605500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x1098
+2030605500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x1098
+2030606000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=1
+2030606000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 0x40b3ec0000000000 
+2030606000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030606000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030606000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030606000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030606000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x10a0
+2030606000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x10a0
+2030606000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x10a0
+2030606000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030606500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030606500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030606500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x10a8
+2030606500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x10a8
+2030606500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x10a8
+2030607000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030607000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x10b0
+2030607000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x10b0
+2030607000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x10b0
+2030607000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030607500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030607500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030607500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x10b8
+2030607500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x10b8
+2030607500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x10b8
+2030608000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030608000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x10c0
+2030608000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x10c0
+2030608000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x10c0
+2030608000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030608500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030608500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030608500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x10c8
+2030608500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x10c8
+2030608500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x10c8
+2030609000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030609000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x10d0
+2030609000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x10d0
+2030609000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x10d0
+2030609000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030609500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030609500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030609500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x10d8
+2030609500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x10d8
+2030609500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x10d8
+2030610000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030610000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x10e0
+2030610000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x10e0
+2030610000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x10e0
+2030610000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030610500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030610500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030610500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x10e8
+2030610500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x10e8
+2030610500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x10e8
+2030611000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030611000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x10f0
+2030611000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x10f0
+2030611000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x10f0
+2030611000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030611500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030611500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready, the instruction is vfmul_vv
+2030611500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x10f8
+2030611500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x10f8
+2030611500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: size_write 8 items to write at 0x10f8
+2030612000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=1
+2030612000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Executed instruction vle64_v
+2030612000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Memory queue Size 1
+2030612000: system.cpu.ve_interface.vector_engine.vector_inst_queue: issuing inst: vfmul_vv v3 v1 v2           PC 0x10496
+2030612000: system.cpu.ve_interface.vector_engine.vector_inst_queue: issuing renamed inst: vfmul_vv v34 v32 v33   old_dst v3        PC 0x10496
+2030612000: system.cpu.ve_interface.vector_engine: Sending instruction vfmul_vv to Lanes 3, pc 0x10496
+2030612000: system.cpu.ve_interface.vector_engine.vector_lane3: Executing instruction vfmul_vv , vl = 16 , mvl =  16
+2030612000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: Executing inst vfmul_vv, pc 0x10496, Oplatency = 3, DataType = 64-bit
+2030612000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: count: 16, DST_SIZE: 8, data_to: reg, mem_addr: 0x1100 mop: 0, stride: 1
+2030612000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1100
+2030612000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030612000: system.cpu.ve_interface.vector_engine.vector_lane3: Reading srcAReader 
+2030612000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: count: 16, DST_SIZE: 8, data_from: reg, mem_addr: 0x1080 mop: 0, stride: 1
+2030612000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x1080 with 1 items for addr 0x1080
+2030612000: system.cpu.ve_interface.vector_engine.vector_lane3: Reading srcBReader 
+2030612000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: count: 16, DST_SIZE: 8, data_from: reg, mem_addr: 0x1000 mop: 0, stride: 1
+2030612000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1000 with 1 items for addr 0x1000
+2030612000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030612500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030612500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x40b4500000000000 , queue_size = 1 
+2030612500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030612500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40b3ec0000000000 , queue_size = 1 
+2030612500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030612500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1008 with 1 items for addr 0x1008
+2030612500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x1088 with 1 items for addr 0x1088
+2030612500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1100
+2030612500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030613000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030613000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40ab580000000000 , queue_size = 2 
+2030613000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030613000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x4079000000000000 , queue_size = 2 
+2030613000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1100
+2030613000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030613000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x1090 with 1 items for addr 0x1090
+2030613000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1010 with 1 items for addr 0x1010
+2030613000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030613500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030613500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x40b3ec0000000000 , queue_size = 2 
+2030613500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030613500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40c28e0000000000 , queue_size = 2 
+2030613500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030613500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1018 with 1 items for addr 0x1018
+2030613500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x1098 with 1 items for addr 0x1098
+2030613500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1100
+2030613500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030614000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030614000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40b0040000000000 , queue_size = 3 
+2030614000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030614000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x40bf400000000000 , queue_size = 3 
+2030614000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1100
+2030614000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030614000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x10a0 with 1 items for addr 0x10a0
+2030614000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1020 with 1 items for addr 0x1020
+2030614000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030614500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030614500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x40b1940000000000 , queue_size = 3 
+2030614500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030614500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40b5180000000000 , queue_size = 3 
+2030614500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030614500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1028 with 1 items for addr 0x1028
+2030614500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x10a8 with 1 items for addr 0x10a8
+2030614500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1100
+2030614500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030615000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030615000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40c0360000000000 , queue_size = 4 
+2030615000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030615000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x408f400000000000 , queue_size = 4 
+2030615000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1100
+2030615000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030615000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x10b0 with 1 items for addr 0x10b0
+2030615000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1030 with 1 items for addr 0x1030
+2030615000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030615500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030615500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x40b0680000000000 , queue_size = 4 
+2030615500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030615500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40b3ec0000000000 , queue_size = 4 
+2030615500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030615500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1038 with 1 items for addr 0x1038
+2030615500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x10b8 with 1 items for addr 0x10b8
+2030615500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1100
+2030615500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030616000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030616000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40b3240000000000 , queue_size = 5 
+2030616000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030616000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x40c0fe0000000000 , queue_size = 5 
+2030616000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1100
+2030616000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030616000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x10c0 with 1 items for addr 0x10c0
+2030616000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1040 with 1 items for addr 0x1040
+2030616000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030616000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 5200 * 5100  = 2.652e+07  
+2030616000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030616500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030616500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x4089000000000000 , queue_size = 5 
+2030616500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030616500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40b3880000000000 , queue_size = 5 
+2030616500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030616500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1048 with 1 items for addr 0x1048
+2030616500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x10c8 with 1 items for addr 0x10c8
+2030616500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1100
+2030616500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1100
+2030616500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1100
+2030617000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030617000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x4091300000000000 , queue_size = 6 
+2030617000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030617000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x40b8380000000000 , queue_size = 6 
+2030617000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030617000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1108
+2030617000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030617000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x10d0 with 1 items for addr 0x10d0
+2030617000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1050 with 1 items for addr 0x1050
+2030617000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030617000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 400 * 3500  = 1.4e+06  
+2030617000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030617500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030617500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x40a6a80000000000 , queue_size = 6 
+2030617500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030617500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40a1f80000000000 , queue_size = 6 
+2030617500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030617500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1058 with 1 items for addr 0x1058
+2030617500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x10d8 with 1 items for addr 0x10d8
+2030617500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1108
+2030617500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1108
+2030617500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1108
+2030618000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030618000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40bdb00000000000 , queue_size = 7 
+2030618000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030618000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x40b5180000000000 , queue_size = 7 
+2030618000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030618000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1110
+2030618000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030618000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x10e0 with 1 items for addr 0x10e0
+2030618000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1060 with 1 items for addr 0x1060
+2030618000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030618000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 5100 * 9500  = 4.845e+07  
+2030618000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030618500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030618500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x40aa900000000000 , queue_size = 7 
+2030618500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030618500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40c3560000000000 , queue_size = 7 
+2030618500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030618500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1068 with 1 items for addr 0x1068
+2030618500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x10e8 with 1 items for addr 0x10e8
+2030618500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1110
+2030618500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1110
+2030618500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1110
+2030619000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030619000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40b25c0000000000 , queue_size = 8 
+2030619000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030619000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x40bedc0000000000 , queue_size = 8 
+2030619000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030619000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1118
+2030619000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030619000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x10f0 with 1 items for addr 0x10f0
+2030619000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1070 with 1 items for addr 0x1070
+2030619000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030619000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 8000 * 4100  = 3.28e+07  
+2030619000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030619500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=0
+2030619500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x40c2f20000000000 , queue_size = 8 
+2030619500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=0
+2030619500: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40b70c0000000000 , queue_size = 8 
+2030619500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030619500: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: reading line_addr 0x1078 with 1 items for addr 0x1078
+2030619500: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: reading line_addr 0x10f8 with 1 items for addr 0x10f8
+2030619500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1118
+2030619500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1118
+2030619500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1118
+2030620000: system.cpu.ve_interface.vector_engine.vector_lane3.srcBReader: calling on_item_load with size 8. 'done'=1
+2030620000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcBReader 0x40a6a80000000000 , queue_size = 9 
+2030620000: system.cpu.ve_interface.vector_engine.vector_lane3.srcAReader: calling on_item_load with size 8. 'done'=1
+2030620000: system.cpu.ve_interface.vector_engine.vector_lane3: queue Data srcAReader 0x40b3ec0000000000 , queue_size = 9 
+2030620000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030620000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1120
+2030620000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030620000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030620000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 4500 * 5400  = 2.43e+07  
+2030620000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030620500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030620500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1120
+2030620500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1120
+2030620500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1120
+2030621000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030621000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1128
+2030621000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030621000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030621000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 1000 * 8300  = 8.3e+06  
+2030621000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030621500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030621500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1128
+2030621500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1128
+2030621500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1128
+2030622000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030622000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1130
+2030622000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030622000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030622000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 4200 * 5100  = 2.142e+07  
+2030622000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030622500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030622500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1130
+2030622500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1130
+2030622500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1130
+2030623000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030623000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1138
+2030623000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030623000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030623000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 8700 * 4900  = 4.263e+07  
+2030623000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030623500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030623500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1138
+2030623500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1138
+2030623500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1138
+2030624000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030624000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1140
+2030624000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030624000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030624000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 800 * 5000  = 4e+06  
+2030624000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030624500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030624500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1140
+2030624500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1140
+2030624500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1140
+2030625000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030625000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1148
+2030625000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030625000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030625000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 6200 * 1100  = 6.82e+06  
+2030625000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030625500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030625500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1148
+2030625500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1148
+2030625500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1148
+2030626000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030626000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1150
+2030626000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030626000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030626000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 2900 * 2300  = 6.67e+06  
+2030626000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030626500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030626500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1150
+2030626500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1150
+2030626500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1150
+2030627000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030627000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1158
+2030627000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030627000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030627000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 5400 * 7600  = 4.104e+07  
+2030627000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030627500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030627500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1158
+2030627500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1158
+2030627500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1158
+2030628000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030628000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1160
+2030628000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030628000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030628000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 3400 * 9900  = 3.366e+07  
+2030628000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030628500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030628500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1160
+2030628500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1160
+2030628500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1160
+2030629000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030629000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1168
+2030629000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030629000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030629000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 7900 * 4700  = 3.713e+07  
+2030629000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030629500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030629500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1168
+2030629500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1168
+2030629500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1168
+2030630000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030630000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1170
+2030630000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030630000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030630000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 9700 * 5900  = 5.723e+07  
+2030630000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030630500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030630500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1170
+2030630500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1170
+2030630500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1170
+2030631000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=0
+2030631000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1178
+2030631000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: try_write dataQ empty
+2030631000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030631000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath: WB Instruction = 5100 * 2900  = 1.479e+07  
+2030631000: system.cpu.ve_interface.vector_engine.vector_lane3.dataPath:  Leaving dataPath
+2030631500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Sources not ready for inst vse64_v
+2030631500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: getting data to write 1 items at 0x1178
+2030631500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: got 1 items to write at 0x1178
+2030631500: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: size_write 8 items to write at 0x1178
+2030632000: system.cpu.ve_interface.vector_engine.vector_lane3.dstWriter: calling on_item_store with 'done'=1
+2030632000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Executed instruction vfmul_vv
+2030632000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Arithmetic queue Size 0
+2030632000: system.cpu.ve_interface.vector_engine.vector_inst_queue: issuing inst: vse64_v v3       PC 0x1049A
+2030632000: system.cpu.ve_interface.vector_engine.vector_inst_queue: issuing renamed inst: vse64_v v34        PC 0x1049A
+2030632000: system.cpu.ve_interface.vector_engine: Sending instruction vse64_v to VMU, pc 0x1049a
+2030632000: system.cpu.ve_interface.vector_engine.vector_memory_unit: DST_SIZE=8 
+2030632000: system.cpu.ve_interface.vector_engine.vector_memory_unit: Vector Store unit_stride  to Memory Addrs: 0x7ffffffffffffcc8 with vl: 16
+2030632000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: count: 16, DST_SIZE: 8, data_to: mem, mem_addr: 0x7ffffffffffffcc8 mop: 0, stride: 1
+2030632000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 7 items at 0x7ffffffffffffcc8
+2030632000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write dataQ empty
+2030632000: system.cpu.ve_interface.vector_engine.vector_memory_unit: Vector Store: data from vector register v34
+2030632000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: count: 16, DST_SIZE: 8, data_from: reg, mem_addr: 0x1100 mop: 0, stride: 1
+2030632000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1100 with 1 items for addr 0x1100
+2030632500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030632500: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 41794A9C00000000 
+2030632500: system.cpu.ve_interface.vector_engine.vector_inst_queue: Instruction Queue can not Issue more instructions because is empty 
+2030632500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1108 with 1 items for addr 0x1108
+2030632500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 7 items at 0x7ffffffffffffcc8
+2030632500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write needs more elements
+2030633000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030633000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 41355CC000000000 
+2030633000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 7 items at 0x7ffffffffffffcc8
+2030633000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write needs more elements
+2030633000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1110 with 1 items for addr 0x1110
+2030633500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030633500: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 41871A4E80000000 
+2030633500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1118 with 1 items for addr 0x1118
+2030633500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 7 items at 0x7ffffffffffffcc8
+2030633500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write needs more elements
+2030634000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030634000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 417F47D000000000 
+2030634000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 7 items at 0x7ffffffffffffcc8
+2030634000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write needs more elements
+2030634000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1120 with 1 items for addr 0x1120
+2030634500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030634500: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 41772C9E00000000 
+2030634500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1128 with 1 items for addr 0x1128
+2030634500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 7 items at 0x7ffffffffffffcc8
+2030634500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write needs more elements
+2030635000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030635000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 415FA97800000000 
+2030635000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 7 items at 0x7ffffffffffffcc8
+2030635000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write needs more elements
+2030635000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1130 with 1 items for addr 0x1130
+2030635500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030635500: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 41746D7E00000000 
+2030635500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1138 with 1 items for addr 0x1138
+2030635500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 7 items at 0x7ffffffffffffcc8
+2030635500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 7 items to write at 0x7ffffffffffffcc8
+2030636000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030636000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 418453DB80000000 
+2030636000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 8 items at 0x7ffffffffffffd00
+2030636000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write needs more elements
+2030636000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1140 with 1 items for addr 0x1140
+2030636500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1148 with 1 items for addr 0x1148
+2030636500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 8 items at 0x7ffffffffffffd00
+2030636500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write needs more elements
+2030637000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 8 items at 0x7ffffffffffffd00
+2030637000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write needs more elements
+2030637000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1150 with 1 items for addr 0x1150
+2030637500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1158 with 1 items for addr 0x1158
+2030637500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 8 items at 0x7ffffffffffffd00
+2030637500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write needs more elements
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 414E848000000000 
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 415A042800000000 
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 415971AC00000000 
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 418391C400000000 
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 8 items at 0x7ffffffffffffd00
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write needs more elements
+2030638000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1160 with 1 items for addr 0x1160
+2030638500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030638500: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 41800CE300000000 
+2030638500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1168 with 1 items for addr 0x1168
+2030638500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 8 items at 0x7ffffffffffffd00
+2030638500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write needs more elements
+2030639000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030639000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 4181B47880000000 
+2030639000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 8 items at 0x7ffffffffffffd00
+2030639000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: try_write needs more elements
+2030639000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1170 with 1 items for addr 0x1170
+2030639500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=0
+2030639500: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 418B4A1580000000 
+2030639500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: reading line_addr 0x1178 with 1 items for addr 0x1178
+2030639500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 8 items at 0x7ffffffffffffd00
+2030639500: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 8 items to write at 0x7ffffffffffffd00
+2030640000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memReader: calling on_item_load with size 8. 'done'=1
+2030640000: system.cpu.ve_interface.vector_engine.vector_memory_unit: queue Data 416C35AE00000000 
+2030640000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: getting data to write 1 items at 0x7ffffffffffffd40
+2030640000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: got 1 items to write at 0x7ffffffffffffd40
+2030648000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030648000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030648000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030648000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030648000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030648000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030648000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030648000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=0
+2030648000: system.cpu.ve_interface.vector_engine.vector_memory_unit.memWriter: calling on_item_store with 'done'=1
+2030648000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Executed instruction vse64_v
+2030648000: system.cpu.ve_interface.vector_engine.vector_inst_queue: Memory queue Size 0
+Result[0]: 1.000000
+Result[1]: 1400000.000000
+Result[2]: 48450000.000000
+Result[3]: 32800000.000000
+Result[4]: 24300000.000000
+Result[5]: 8300000.000000
+Result[6]: 21420000.000000
+Result[7]: 42630000.000000
+Result[8]: 4000000.000000
+Result[9]: 6820000.000000
+Result[10]: 6670000.000000
+Result[11]: 41040000.000000
+Result[12]: 33660000.000000
+Result[13]: 37130000.000000
+Result[14]: 57230000.000000
+Result[15]: 14790000.000000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version [DEVELOP-FOR-V20.1]
+gem5 compiled Apr  7 2025 06:31:02
+gem5 started Apr  7 2025 07:16:47
+gem5 executing on 4ca649cf1995, pid 32735
+command line: /workspaces/plct-gem5/build/RISCV/gem5.opt --debug-flags=InstQueueInst,InstQueueRenInst,InstQueue,VectorEngine,Datapath,VectorLane,VectorMemUnit,MemUnitReadTiming,MemUnitWriteTiming --stats-file=/workspaces/plct-gem5/riscv-vectorized-benchmark-suite/_chaintest/result/stats.txt /workspaces/plct-gem5/configs/example/riscv_vector_engine.py --v_lanes=4 --num_clusters=4 --max_vl=1024 --mem_size=8GB --l1i_size=64kB --l1d_size=16MB --l2_size=32MB --connect_to_l1_d=1 --connect_to_l1_v=1 --connect_to_l2=0 '--cmd=/workspaces/plct-gem5/riscv-vectorized-benchmark-suite/_chaintest/bin/chaintest '
+
+Beginning simulation!
+Exiting @ tick 2826062000 because exiting with last active thread context
+gem5 finished Apr  7 2025 07:16:55
